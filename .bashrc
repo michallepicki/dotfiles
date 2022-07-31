@@ -118,5 +118,12 @@ fi
 
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
+
 export ERL_AFLAGS="-kernel shell_history enabled"
+export KERL_BUILD_DOCS=yes
+export KERL_INSTALL_HTMLDOCS=no
+# export CFLAGS="-march=native -O2 -g"
+
+# export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
