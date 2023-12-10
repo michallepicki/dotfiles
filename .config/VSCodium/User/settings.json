@@ -30,6 +30,7 @@
     "terminal.integrated.fontFamily": "Liberation mono",
     "elixirLS.dialyzerEnabled": false,
     "elixirLS.fetchDeps": false,
+    "editor.inlayHints.enabled": "offUnlessPressed",
     "[gleam]": {
         "editor.formatOnSave": false
     },
